@@ -20,6 +20,13 @@
           "settings": {
           }
         },
+        "63111eac-0d85-45dc-9199-7527733b775a": {
+          "type": "text",
+          "settings": {
+            "text": "Bestel nu: {{ product.metafields.my_fields.levertijd | metafield_text }} in huis!",
+            "text_style": "subtitle"
+          }
+        },
         "7bc315de-6fca-49f9-8a20-2965c056eff2": {
           "type": "collapsible_tab",
           "settings": {
@@ -68,6 +75,7 @@
         "vendor",
         "title",
         "price",
+        "63111eac-0d85-45dc-9199-7527733b775a",
         "7bc315de-6fca-49f9-8a20-2965c056eff2",
         "subtitle",
         "variant_picker",
@@ -79,6 +87,42 @@
       "settings": {
         "enable_sticky_info": true,
         "enable_video_looping": false
+      }
+    },
+    "16254945828a9a81bf": {
+      "type": "collection-list",
+      "blocks": {
+        "16254945828a9a81bf-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16254945828a9a81bf-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16254945828a9a81bf-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16254945828a9a81bf-0",
+        "16254945828a9a81bf-1",
+        "16254945828a9a81bf-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
       }
     },
     "product-recommendations": {
@@ -94,6 +138,7 @@
   },
   "order": [
     "main",
+    "16254945828a9a81bf",
     "product-recommendations"
   ]
 }
