@@ -35,13 +35,21 @@
           "settings": {
             "collection": ""
           }
+        },
+        "1d9fde8b-5ec4-45c3-a93f-bcd961ef3326": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "1625492595f3e3dddc-0",
         "1625492595f3e3dddc-1",
         "1625492595f3e3dddc-2",
-        "4e304ea7-781f-4706-b943-9c0e1aba1a01"
+        "4e304ea7-781f-4706-b943-9c0e1aba1a01",
+        "1d9fde8b-5ec4-45c3-a93f-bcd961ef3326"
       ],
       "settings": {
         "title": "",
@@ -96,10 +104,10 @@
     "16254926445e809f5b": {
       "type": "rich-text",
       "blocks": {
-        "16254926445e809f5b-0": {
+        "e43cb58d-c923-48cb-ae23-c635a9e99a53": {
           "type": "heading",
           "settings": {
-            "heading": "Vertel over Binthout",
+            "heading": "Talk about your brand",
             "heading_size": "medium"
           }
         },
@@ -109,19 +117,19 @@
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "16254926445e809f5b-2": {
+        "53c61700-fd70-4c4f-b43e-9e03952ba628": {
           "type": "button",
           "settings": {
-            "button_label": "Knop",
+            "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "16254926445e809f5b-0",
+        "e43cb58d-c923-48cb-ae23-c635a9e99a53",
         "16254926445e809f5b-1",
-        "16254926445e809f5b-2"
+        "53c61700-fd70-4c4f-b43e-9e03952ba628"
       ],
       "settings": {
         "color_scheme": "background-1",
