@@ -23,7 +23,7 @@
         "7bc315de-6fca-49f9-8a20-2965c056eff2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Levertijd",
+            "heading": "Levertijd {{ product.metafields.my_fields.levertijd | metafield_text }}",
             "content": "<p>{{ product.metafields.my_fields.levertijd | metafield_tag }}<\/p>",
             "page": "",
             "icon": "check_mark"
