@@ -10,6 +10,7 @@
     },
     "1625492595f3e3dddc": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "1625492595f3e3dddc-0": {
           "type": "featured_collection",
@@ -88,7 +89,7 @@
         "1625492841cd70f8db-2"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
