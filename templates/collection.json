@@ -99,7 +99,7 @@
         "16254926445e809f5b-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Vertel over Binthout",
             "heading_size": "medium"
           }
         },
@@ -112,7 +112,7 @@
         "16254926445e809f5b-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Knop",
             "button_link": "",
             "button_style_secondary": false
           }
