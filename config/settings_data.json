@@ -9,8 +9,9 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_web.png",
           "logo_width": 100,
-          "logo_position": "top-center",
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": false,
           "enable_sticky_header": false
