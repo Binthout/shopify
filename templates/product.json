@@ -22,13 +22,6 @@
             "text_style": "subtitle"
           }
         },
-        "45b3413b-6bb1-48fd-9153-61f04e2cc00b": {
-          "type": "popup",
-          "settings": {
-            "link_label": "Pop-up link text",
-            "page": "contact"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -60,19 +53,28 @@
           "type": "share",
           "settings": {
           }
+        },
+        "7bc315de-6fca-49f9-8a20-2965c056eff2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Levertijd",
+            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "subtitle",
-        "45b3413b-6bb1-48fd-9153-61f04e2cc00b",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "7bc315de-6fca-49f9-8a20-2965c056eff2"
       ],
       "settings": {
         "enable_sticky_info": true,
