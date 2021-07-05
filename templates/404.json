@@ -1,10 +1,89 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "16254931595f62ea11": {
+      "type": "image-with-text",
+      "blocks": {
+        "16254931595f62ea11-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We slaan de plank mis!"
+          }
+        },
+        "16254931595f62ea11-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hoe kunnen we onze website verbeteren? <\/p><p><\/p>"
+          }
+        },
+        "16254931595f62ea11-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Wij willen jou helpen!",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "16254931595f62ea11-0",
+        "16254931595f62ea11-1",
+        "16254931595f62ea11-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1625493506d3789e02": {
+      "type": "rich-text",
+      "blocks": {
+        "1625493506d3789e02-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "medium"
+          }
+        },
+        "1625493506d3789e02-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1625493506d3789e02-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1625493506d3789e02-0",
+        "1625493506d3789e02-1",
+        "1625493506d3789e02-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16254931660b8fcd0f": {
+      "type": "contact-form",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16254931595f62ea11",
+    "1625493506d3789e02",
+    "16254931660b8fcd0f"
   ]
- }
+}
