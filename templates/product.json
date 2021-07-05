@@ -22,6 +22,13 @@
             "text_style": "subtitle"
           }
         },
+        "45b3413b-6bb1-48fd-9153-61f04e2cc00b": {
+          "type": "popup",
+          "settings": {
+            "link_label": "Pop-up link text",
+            "page": "contact"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -59,6 +66,7 @@
         "vendor",
         "title",
         "subtitle",
+        "45b3413b-6bb1-48fd-9153-61f04e2cc00b",
         "price",
         "variant_picker",
         "quantity_selector",
