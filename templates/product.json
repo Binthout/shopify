@@ -15,16 +15,25 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "7bc315de-6fca-49f9-8a20-2965c056eff2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Levertijd",
+            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "variant_picker": {
@@ -53,28 +62,19 @@
           "type": "share",
           "settings": {
           }
-        },
-        "7bc315de-6fca-49f9-8a20-2965c056eff2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Levertijd",
-            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
-            "page": "",
-            "icon": "check_mark"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "subtitle",
         "price",
+        "7bc315de-6fca-49f9-8a20-2965c056eff2",
+        "subtitle",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "7bc315de-6fca-49f9-8a20-2965c056eff2"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
