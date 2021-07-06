@@ -93,10 +93,10 @@
         "162556492805f1d386-2"
       ],
       "settings": {
-        "title": "Geselecteerde producten",
+        "title": "Beschikbare Collecties",
         "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
+        "color_scheme": "background-2",
+        "swipe_on_mobile": true,
         "image_padding": false,
         "show_view_all": false
       }

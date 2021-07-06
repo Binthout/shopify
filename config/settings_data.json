@@ -1,5 +1,6 @@
 {
   "current": {
+    "colors_background_2": "#ffe200",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
