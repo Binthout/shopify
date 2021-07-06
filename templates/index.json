@@ -12,13 +12,13 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Deze website is speciaal ingericht op de wederverkoop van Binthout producten. <\/p><p>Heb je vragen? <\/p>"
+            "text": "<p>Deze website is speciaal ingericht op de wederverkoop van Binthout producten. De getoonde producten zijn speciaal voor u geselecteerd.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Ik wil een bericht sturen",
+            "button_label": "Ik heb toch nog een vraag",
             "button_link": "shopify:\/\/pages\/contact"
           }
         }
@@ -29,8 +29,9 @@
         "button"
       ],
       "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/opsluitbank-ramazan-died.jpg",
+        "height": "small",
+        "color_scheme": "inverse",
         "layout": "image_first"
       }
     },
