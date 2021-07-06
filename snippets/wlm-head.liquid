@@ -57,6 +57,18 @@
 {% endunless %}
 
 
+{% assign wlmExceptionalURL15930 = false %} {% unless wlmLockON or wlmExceptionalURL15930 or wlmSuperPage or template == 'customers/register' %}
+{% assign wlmLockedContent = false %}
+{% assign wlmLockedContent = true %}
+{% if wlmLockedContent %}
+<meta name='robots' content='NOINDEX,NOFOLLOW,NOARCHIVE,NOSNIPPET,NOODP,NOYDIR' />
+<script type='text/javascript'>
+wlm.navigateListByAuth.may.push({lcid: '79303', hp: 'zhikl/Y8IhFzYqwAk1rLLQ==', wlmPwdMsg: '<p>Deze website is beveiligd.</p>', pp: ''});
+</script>
+{% endif %}
+{% endunless %}
+
+
 {% endif %}
 
 {% capture wlm_check_hide %}{% include 'wlm-hideByLink' %}{% endcapture %}{% if wlm_check_hide != 'Liquid error: Could not find asset snippets/wlm-hideByLink.liquid' %}{% include 'wlm-hideByLink' %}{% endif %}
