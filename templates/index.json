@@ -36,6 +36,7 @@
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Verlichting",
         "collection": "lampen",
@@ -50,6 +51,7 @@
     },
     "1625562432dcc0f56b": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Stadstorens",
         "collection": "stadstorens",
@@ -61,11 +63,48 @@
         "add_image_padding": false,
         "show_vendor": false
       }
+    },
+    "162556492805f1d386": {
+      "type": "collection-list",
+      "blocks": {
+        "162556492805f1d386-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lampen"
+          }
+        },
+        "162556492805f1d386-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stadstorens"
+          }
+        },
+        "162556492805f1d386-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "162556492805f1d386-0",
+        "162556492805f1d386-1",
+        "162556492805f1d386-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
     "image_text",
     "featured_products",
-    "1625562432dcc0f56b"
+    "1625562432dcc0f56b",
+    "162556492805f1d386"
   ]
 }
