@@ -48,42 +48,6 @@
 {% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture wlmRedirectURL %}login{% endcapture %}
 {% else %}
-{% unless wlmLockedTags79314 %}{% assign wlmLockON = true %}{% endunless %}
-{% if wlmLockON %}
-{% capture wlmPnfHead %}Page not found{% endcapture %}
-{% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% capture wlmRedirectURL %}login{% endcapture %}
-{% endif %}
-{% endunless %}
-{% endif %}
-{% endunless %}
-
-
-{% unless wlmLockON or wlmSuperPage or template == 'customers/register' %}
-{% assign wlmLockedContent = false %}
-{% if template contains "collection" or template contains "product" %}
-{% if product.collections %}
-{% for c in product.collections %}
-{% if c.id == 273540382919 %} 
-{% assign wlmLockedContent = true %}{% break %}
-{% endif %}
-{% endfor %}
-{% endif %}
-{% endif %}
-{% if template contains 'collection' or template contains 'product' %}
-{% if collection %}
-{% if   collection.handle == 'lampen' %}
-{% assign wlmLockedContent = true %}
-{% endif %}
-{% endif %}
-{% endif %}
-{% if wlmLockedContent %}
-{% unless customer %}
-{% assign wlmLockON = true %}
-{% capture wlmPnfHead %}Page not found{% endcapture %}
-{% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% capture wlmRedirectURL %}login{% endcapture %}
-{% else %}
 {% unless wlmLockedTags79306 %}{% assign wlmLockON = true %}{% endunless %}
 {% if wlmLockON %}
 {% capture wlmPnfHead %}Page not found{% endcapture %}
