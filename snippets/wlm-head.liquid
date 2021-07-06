@@ -116,21 +116,6 @@
 {% endunless %}
 
 
-{% unless wlmLockON or wlmSuperPage or template == 'customers/register' %}
-{% assign wlmLockedContent = false %}
-{% if template contains "product" and product %} {% if product.id == 6845824008391 or product.id == 6845832593607 or product.id == 6845816406215 or product.id == 6845820207303 or product.id == 6845823025351 or product.id == 6845823123655 or product.id == 6845816307911 or product.id == 6845819551943 or product.id == 6845809033415 or product.id == 6845830955207 or product.id == 6845830660295 or product.id == 6845828268231 or product.id == 6845792223431 or product.id == 6845792452807 or product.id == 6845832822983 %} {% assign wlmLockedContent = true %}{% endif %}{% endif %}{% if wlmLockedContent %}
-{% if customer %}
-{% assign wlmLockedContent = true %}
-{% if wlmLockedContent %}
-{% assign wlmLockON = true %}
-{% capture wlmPnfHead %}Page not found{% endcapture %}
-{% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% endif %}
-{% endif %}
-{% endif %}
-{% endunless %}
-
-
 {% endif %}
 
 {% capture wlm_check_hide %}{% include 'wlm-hideByLink' %}{% endcapture %}{% if wlm_check_hide != 'Liquid error: Could not find asset snippets/wlm-hideByLink.liquid' %}{% include 'wlm-hideByLink' %}{% endif %}
