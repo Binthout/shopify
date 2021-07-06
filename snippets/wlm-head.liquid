@@ -20,7 +20,7 @@
 {% for tag in customer.tags %}
 {% if tag == 'retail-stadstorens' %}{% assign wlmLockedTags79306 = true %}{% endif %}
 {% if tag == 'wholesale' %}{% assign wlmLockedTags79308 = true %}{% endif %}
-{% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79311 = true %}{% endif %}
+{% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79314 = true %}{% endif %}
 {% endfor %}
 
 {% unless wlmLockON or wlmSuperPage or template == 'customers/register' %}
@@ -48,7 +48,7 @@
 {% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture wlmRedirectURL %}login{% endcapture %}
 {% else %}
-{% unless wlmLockedTags79311 %}{% assign wlmLockON = true %}{% endunless %}
+{% unless wlmLockedTags79314 %}{% assign wlmLockON = true %}{% endunless %}
 {% if wlmLockON %}
 {% capture wlmPnfHead %}Page not found{% endcapture %}
 {% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
