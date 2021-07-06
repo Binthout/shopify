@@ -47,10 +47,25 @@
         "add_image_padding": false,
         "show_vendor": false
       }
+    },
+    "1625562432dcc0f56b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Stadstorens",
+        "collection": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
     }
   },
   "order": [
     "image_text",
-    "featured_products"
+    "featured_products",
+    "1625562432dcc0f56b"
   ]
 }
