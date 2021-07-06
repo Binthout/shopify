@@ -22,6 +22,7 @@
         },
         "63111eac-0d85-45dc-9199-7527733b775a": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Bestel nu: {{ product.metafields.my_fields.levertijd | metafield_text }} in huis!",
             "text_style": "subtitle"
@@ -29,6 +30,7 @@
         },
         "7bc315de-6fca-49f9-8a20-2965c056eff2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Levertijd {{ product.metafields.my_fields.levertijd | metafield_text }}",
             "content": "<p>{{ product.metafields.my_fields.levertijd | metafield_tag }}<\/p>",
@@ -91,6 +93,7 @@
     },
     "16254945828a9a81bf": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16254945828a9a81bf-0": {
           "type": "featured_collection",
