@@ -1,8 +1,8 @@
 {% assign wlmHideItem_Product = false %}{% for tag in customer.tags %}
 {% if tag == 'wholesale' %}{% assign wlmLockedTags79315 = true %}{% endif %}
 {% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79317 = true %}{% endif %}
-{% if tag == 'retail-stadstorens' %}{% assign wlmLockedTags79319 = true %}{% endif %}
 {% if tag == 'retail-klemborden' %}{% assign wlmLockedTags79337 = true %}{% endif %}
+{% if tag == 'retail-stadstorens' %}{% assign wlmLockedTags79338 = true %}{% endif %}
 {% endfor %}
 
 
@@ -45,7 +45,7 @@
 {% assign  wlmHideItem_Product = true %}
 {% continue %}
 {% else %}
-{% unless wlmLockedTags79319 %}{% assign  wlmHideItem_Product = true %}
+{% unless wlmLockedTags79338 %}{% assign  wlmHideItem_Product = true %}
 {% continue %}
 {% endunless %}
 {% endunless %}
@@ -76,7 +76,7 @@
 {% assign  wlmHideItem_Product = true %}
 {% continue %}
 {% else %}
-{% unless wlmLockedTags79319 %}{% assign  wlmHideItem_Product = true %}
+{% unless wlmLockedTags79338 %}{% assign  wlmHideItem_Product = true %}
 {% continue %}
 {% endunless %}
 {% endunless %}
