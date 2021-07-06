@@ -1,7 +1,7 @@
 {% assign wlmHideItem_Product = false %}{% for tag in customer.tags %}
-{% if tag == 'retail-stadstorens' %}{% assign wlmLockedTags79306 = true %}{% endif %}
 {% if tag == 'wholesale' %}{% assign wlmLockedTags79315 = true %}{% endif %}
 {% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79317 = true %}{% endif %}
+{% if tag == 'retail-stadstorens' %}{% assign wlmLockedTags79318 = true %}{% endif %}
 {% endfor %}
 
 
@@ -14,6 +14,37 @@
 {% continue %}
 {% else %}
 {% unless wlmLockedTags79317 %}{% assign  wlmHideItem_Product = true %}
+{% continue %}
+{% endunless %}
+{% endunless %}
+
+{% endif %}
+{% endfor %}{% endif %}
+
+{% if wlm-product.collections %}
+
+                            {% for c in wlm-product.collections %}
+{% if c.id == 273540382919 %} 
+{% unless customer %}
+{% assign  wlmHideItem_Product = true %}
+{% continue %}
+{% else %}
+{% unless wlmLockedTags79317 %}{% assign  wlmHideItem_Product = true %}
+{% continue %}
+{% endunless %}
+{% endunless %}
+
+{% endif %}
+{% endfor %}{% endif %}
+{% if wlm-product.collections %}
+
+                            {% for c in wlm-product.collections %}
+{% if c.id == 273540382919 %} 
+{% unless customer %}
+{% assign  wlmHideItem_Product = true %}
+{% continue %}
+{% else %}
+{% unless wlmLockedTags79318 %}{% assign  wlmHideItem_Product = true %}
 {% continue %}
 {% endunless %}
 {% endunless %}
