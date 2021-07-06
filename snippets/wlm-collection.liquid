@@ -1,9 +1,20 @@
-{% assign wlmHideItem_Collection = false %}{% assign wlmLockedTags79300 = false %}
+{% assign wlmHideItem_Collection = false %}{% assign wlmLockedTags79301 = false %}
 
 
 {% for tag in customer.tags %}
-{% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79300 = true %}{% endif %}
+{% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79301 = true %}{% endif %}
 {% endfor %}
+
+{% assign wlmHideItem_Collection = false %}
+
+{% if wlm-collection.id == 273540382919  %}
+{% unless customer %}
+{% assign wlmHideItem_Collection = true %}{% continue %}
+{% else %}
+{% unless wlmLockedTags79301 %}{% assign wlmHideItem_Collection = true %}{% continue %}
+{% endunless %}
+{% endunless %}
+{% endif %}
 
 
 
