@@ -1,0 +1,11 @@
+{% assign wlmHideItem_Collection = false %}{% assign wlmLockedTags79298 = false %}
+
+
+{% for tag in customer.tags %}
+{% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79298 = true %}{% endif %}
+{% endfor %}
+
+
+
+{% if wlmHideItem_Collection == true %}{% continue %}{% endif %}
+

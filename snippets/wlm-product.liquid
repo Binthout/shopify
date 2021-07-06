@@ -1,0 +1,8 @@
+{% assign wlmHideItem_Product = false %}{% for tag in customer.tags %}
+{% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79298 = true %}{% endif %}
+{% endfor %}
+
+
+
+{% if wlmHideItem_Product == true %}{% continue %}{% endif %}
+
