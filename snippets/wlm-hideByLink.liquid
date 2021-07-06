@@ -33,3 +33,20 @@ wlm.arrHideLinks.push('a[href$="/collections/stadstorens"],a[href*="/collections
 {% endif %}
 
 
+{% assign wlmHideLinks=false %}
+{% unless customer %}
+{% assign wlmHideLinks = true %}
+{% else %}
+{% unless wlmLockedTags79337 %}{% assign wlmHideLinks = true %}{% endunless %}
+{% if wlmHideLinks %}
+<script type='text/javascript'>
+wlm.arrHideLinks.push('a[href$="/collections/klemborden"],a[href*="/collections/klemborden/"],a[href*="/collections/klemborden?"],a[href*="/collections/klemborden#"]');
+</script><style type='text/css' class='wlm-auto-hl-styles'>a[href$="/collections/klemborden"],a[href*="/collections/klemborden/"],a[href*="/collections/klemborden?"],a[href*="/collections/klemborden#"]{ display: none !important; }</style>{% endif %}
+{% endunless %}
+{% if wlmHideLinks %}
+<script type='text/javascript'>
+wlm.arrHideLinks.push('a[href$="/collections/klemborden"],a[href*="/collections/klemborden/"],a[href*="/collections/klemborden?"],a[href*="/collections/klemborden#"]');
+</script><style type='text/css' class='wlm-auto-hl-styles'>a[href$="/collections/klemborden"],a[href*="/collections/klemborden/"],a[href*="/collections/klemborden?"],a[href*="/collections/klemborden#"]{ display: none !important; }</style>
+{% endif %}
+
+
