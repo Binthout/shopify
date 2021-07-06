@@ -20,30 +20,8 @@
 {% for tag in customer.tags %}
 {% if tag == 'retail-stadstorens' %}{% assign wlmLockedTags79306 = true %}{% endif %}
 {% if tag == 'wholesale' %}{% assign wlmLockedTags79308 = true %}{% endif %}
-{% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79309 = true %}{% endif %}
-{% if tag == 'wholesale' %}{% assign wlmLockedTags79310 = true %}{% endif %}
+{% if tag == 'retail-verlichting' %}{% assign wlmLockedTags79311 = true %}{% endif %}
 {% endfor %}
-
-{% assign wlmExceptionalURL15929 = false %} {% unless wlmLockON or wlmExceptionalURL15929 or wlmSuperPage or template == 'customers/register' %}
-{% assign wlmLockedContent = false %}
-{% assign wlmLockedContent = true %}
-{% if wlmLockedContent %}
-{% unless customer %}
-{% assign wlmLockON = true %}
-{% capture wlmPnfHead %}Page not found{% endcapture %}
-{% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% capture wlmRedirectURL %}login{% endcapture %}
-{% else %}
-{% unless wlmLockedTags79308 %}{% assign wlmLockON = true %}{% endunless %}
-{% if wlmLockON %}
-{% capture wlmPnfHead %}Page not found{% endcapture %}
-{% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% capture wlmRedirectURL %}login{% endcapture %}
-{% endif %}
-{% endunless %}
-{% endif %}
-{% endunless %}
-
 
 {% unless wlmLockON or wlmSuperPage or template == 'customers/register' %}
 {% assign wlmLockedContent = false %}
@@ -70,8 +48,7 @@
 {% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture wlmRedirectURL %}login{% endcapture %}
 {% else %}
-{% unless wlmLockedTags79309 %}{% assign wlmLockON = true %}{% endunless %}
-{% unless wlmLockedTags79310 %}{% assign wlmLockON = true %}{% endunless %}
+{% unless wlmLockedTags79311 %}{% assign wlmLockON = true %}{% endunless %}
 {% if wlmLockON %}
 {% capture wlmPnfHead %}Page not found{% endcapture %}
 {% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
