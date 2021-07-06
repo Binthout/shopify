@@ -4,101 +4,8 @@
       "type": "main-collection-banner",
       "disabled": true,
       "settings": {
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_collection_image": false
-      }
-    },
-    "1625492595f3e3dddc": {
-      "type": "collection-list",
-      "blocks": {
-        "1625492595f3e3dddc-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lampen"
-          }
-        },
-        "1625492595f3e3dddc-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "1625492595f3e3dddc-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "4e304ea7-781f-4706-b943-9c0e1aba1a01": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        },
-        "1d9fde8b-5ec4-45c3-a93f-bcd961ef3326": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1625492595f3e3dddc-0",
-        "1625492595f3e3dddc-1",
-        "1625492595f3e3dddc-2",
-        "4e304ea7-781f-4706-b943-9c0e1aba1a01",
-        "1d9fde8b-5ec4-45c3-a93f-bcd961ef3326"
-      ],
-      "settings": {
-        "title": "",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
-    },
-    "1625492841cd70f8db": {
-      "type": "collage",
-      "blocks": {
-        "1625492841cd70f8db-0": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/binthout-laser.jpg",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
-          }
-        },
-        "1625492841cd70f8db-1": {
-          "type": "product",
-          "settings": {
-            "product": "bijenhotel",
-            "secondary_background": false,
-            "second_image": false,
-            "image_padding": false
-          }
-        },
-        "1625492841cd70f8db-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "lampen",
-            "image_padding": false,
-            "color_scheme": "accent-1"
-          }
-        }
-      },
-      "block_order": [
-        "1625492841cd70f8db-0",
-        "1625492841cd70f8db-1",
-        "1625492841cd70f8db-2"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
       }
     },
     "16254926445e809f5b": {
@@ -147,13 +54,26 @@
         "enable_filtering": false,
         "enable_sorting": false
       }
+    },
+    "1625562490615af940": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Verlichting",
+        "collection": "lampen",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
     }
   },
   "order": [
     "banner",
-    "1625492595f3e3dddc",
-    "1625492841cd70f8db",
     "16254926445e809f5b",
-    "product-grid"
+    "product-grid",
+    "1625562490615af940"
   ]
 }
